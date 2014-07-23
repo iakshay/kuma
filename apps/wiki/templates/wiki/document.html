@@ -163,7 +163,7 @@
             <a class="button from-search-previous only-icon disabled" title="{{ _('Previous Search Result') }}" data-empty-title="{{ _('No Previous Search Result') }}"><i aria-hidden="true" class="icon-chevron-left"></i></a>
           </span>
           <span class="from-search-navigate-wrap">
-            <a href="#" class="from-search-navigate"><span class="from-search-navigate-up"><i aria-hidden="true" class="icon-double-angle-up"></i></span><span class="from-search-navigate-down"><i aria-hidden="true" class="icon-double-angle-down"></i></span></a>
+            <a href="#" class="from-search-navigate"><span class="from-search-navigate-up"><i aria-hidden="true" class="icon-angle-double-up"></i></span><span class="from-search-navigate-down"><i aria-hidden="true" class="icon-angle-double-down"></i></span></a>
           </span>
           <div class="from-search-toc">
             <span class="title">{{ _('Your Search Results') }}</span>
@@ -365,7 +365,7 @@
                   {% endif %}
                   {% trans contributors=user_list(contributors) %}
                   <div class="contributor-sub">
-                    <i aria-hidden="true" class="icon-group"></i><strong>Contributors to this page:</strong> {{ contributors }}
+                    <i aria-hidden="true" class="icon-users"></i><strong>Contributors to this page:</strong> {{ contributors }}
                   </div>
                   {% endtrans %}
                   {% if current_revision.creator %}
